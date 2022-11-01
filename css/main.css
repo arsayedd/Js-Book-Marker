@@ -1,0 +1,55 @@
+.bookmark {
+    background-color: #eeeeee;
+    text-align: center;
+    border-style: none;
+    padding: 30px;
+}
+
+input {
+    width: 80%;
+    font-size: 15px;
+    max-height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eeeeee;
+    padding: 5px;
+    margin: auto;
+}
+
+.btn-primary:hover {
+    background-color: rgb(10, 63, 119);
+}
+.btn:hover {
+    box-shadow: rgb(136, 136, 136) 2px 5px 3px 0px;
+}
+.webmark a {
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: rgb(17, 103, 196);
+    color: white;
+    border-color: rgb(17, 103, 196);
+    transition: 1s all;
+}
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 10px 15px;
+    margin: 15px 5px;
+    transition: 1s all;
+}
+
+
+.webmark {
+    background-color: #eeeeee;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.webmark h2 {
+    width: 30%;
+    color: rgb(51, 51, 51);
+    font-size: 50px;
+}

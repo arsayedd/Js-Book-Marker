@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+<body>
+  <header>
+		<div class="container">
+			<h3 class="py-5 fw-bold text-muted">Bookmarker</h3>
+		</div>
+	</header>
+  <div class="container">
+		<div class="bookmark py-4">
+			<div class="col-lg-12">
+				<h2 class="fw-bold">Bookmark your favorite sites </h2>
+				<p class="py-4 fs-4 fw-bold">Site Name</p>
+				<input id="siteName" placeholder="Bookmark Name" type="text" />
+				<p class="alert alert-error m-auto" id="nameError"></p>
+				<p class="py-4 fs-4 fw-bold">Site URL</p>
+				<input id="siteUrl" placeholder="website URL" type="text" />
+				<p class="alert alert-error m-auto" id="urlError"></p>
+				<div class="m-auto py-4">
+						<button class="btn btn-primary" onclick="submit()">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="bookmarkList" class="column">
+			
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<p class="fw-bold fs-5 text-muted">2022 Bookmarker Inc.</p>
+		</div>
+	</footer>
+
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
